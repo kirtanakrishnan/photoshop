@@ -1,0 +1,15 @@
+load ../../pics/test.png test
+brighten test 50 brighter save ../brighter.png brighter
+brighten test -50 darker save ../darker.png darker
+horizontal-flip test hflip save ../horizontalFlip.png hflip
+vertical-flip test vflip save ../verticalFlip.png vflip
+red-component test testRed save ../testRed.png testRed
+green-component test testGreen save ../testGreen.png testGreen
+blue-component test testBlue save ../testBlue.png testBlue
+value-component test testValue save ../testValue.png testValue
+intensity-component test intensity save ../testIntensity.png intensity
+luma-component test testLuma save ../testLuma.png testLuma
+blur test blurred save ../testBlur.png blurred
+sharpen test sharp save ../testSharpen.png sharp
+make-greyscale test grey save ../testGrey.png grey
+make-sepia test sepia save ../testSepia.png sepia
